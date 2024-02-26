@@ -7,7 +7,7 @@ export default function Hero_desktop() {
             <div className="course_info">
                 <div className="first_info">Исследуйте вкусы Кавказа</div>
                 <div className="second_info">В сопровождении опытных шеф-поваров вы откроете для себя богатство кавказской кухни и научитесь готовить традиционные блюда.</div>
-                <Button />
+                <Button>Подробнее о курсе</Button>
             </div>
         </div>
     )

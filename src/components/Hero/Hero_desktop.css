@@ -2,7 +2,7 @@
 .hero_desktop {
     display: flex;
     align-items: center;
-    height: 640px;
+    min-height: 640px;
     background-repeat: no-repeat;
     padding: 125px 60px 25px 105px;
     background-image: url("/public/hero-desktop.png");
