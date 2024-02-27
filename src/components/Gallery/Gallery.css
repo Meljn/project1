@@ -1,0 +1,26 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 40px;
+    gap: 50px;
+    color: #513833;
+}
+
+.gallery_info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gallery_info_header {
+    font-family: Playfair Display;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.gallery_info_text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 600px;
+}

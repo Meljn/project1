@@ -21,6 +21,12 @@
     gap: 30px;
 }
 
+.events_cards_none {
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
 .card {
     display: flex;
     position: relative;
@@ -109,4 +115,11 @@
     text-transform: uppercase;
     align-self: center;
     color: #d2691e;
+    background-color: #f0ead6;
+    border: 0px solid;
+    transition: .1s ease-in-out;
+}
+
+.events_link:hover {
+    color: #fa8d3f;
 }

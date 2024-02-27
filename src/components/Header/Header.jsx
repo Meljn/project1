@@ -9,8 +9,8 @@ export default function Header() {
         <header>
             <img src={logo} alt="" className="header_logo"/>
             <ul className="header_menu">
-                {menu.map((men) => (
-                    <li className="menu_punkts">{men}</li>
+                {menu.map((men, i) => (
+                    <li className="menu_punkts" key={i}>{men}</li>
                 ))}
             </ul>
             <div className="header_number">8 800 725-32-32</div>

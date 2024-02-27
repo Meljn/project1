@@ -1,7 +1,6 @@
 import "./Events.css";
 
 export default function Event_card(props) {
-  console.log();
   return (
     <div className="card">
       <img src={props.bg_image} alt="" className="card_image"/>

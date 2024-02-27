@@ -9,4 +9,9 @@
     font-weight: 500;
     font-size: 16px;
     color: white;
+    transition: .2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #e68b4a;
 }
